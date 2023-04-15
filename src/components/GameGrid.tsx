@@ -6,7 +6,7 @@ import GameCardContainer from "./GameCardContainer";
 
 const GameGrid = () => {
   const { games, error, isLoading } = useGames();
-  console.log(games.length);
+
   let skeletons = [];
   for (let i = 0; i < 20; i++) {
     skeletons.push(i);
